@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مهاجرت به پارچ لینوکس</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+    :root {
+      --primary-color: #6082b6;
+      --secondary-color: #005A9E;
+      --background-color: #1E1E1E;
+      --text-color: #F5F5F5;
+      --table-header-color: #131313;
+      --table-row-color: #2E2E2E;
+    }
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header a {
+      color: var(--text-color);
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 18px;
+    }
+
+    header a:hover {
+      color: #ccc;
+    }
+
+    h1, h2, h3 {
+      color: var(--text-color);
+    }
+
+    p {
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 30px;
+      margin-top: 40px;
+    }
+
+    .feature {
+      background-color: var(--table-row-color);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature h3 {
+      margin-top: 0;
+    }
+
+    .cta {
+      display: block;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin: 40px auto 0;
+      width: max-content;
+    }
+
+    .cta:hover {
+      background-color: var(--secondary-color);
+    }
+
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 40px;
+      background-color: var(--table-row-color);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      color: var(--text-color);
+    }
+
+    .comparison-table th, .comparison-table td {
+      padding: 16px;
+      text-align: center;
+      border-bottom: 1px solid var(--table-header-color);
+    }
+
+    .comparison-table th {
+      background-color: var(--table-header-color);
+      font-weight: bold;
+    }
+
+    .comparison-table td {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="https://parchlinux.com/assets/images/brand/parch-full-text.png" alt="پارچ لینوکس">
+    </div>
+    <div>
+      <a href="https://parchlinux.com"><i class="fas fa-globe"></i> سایت پارچ</a>
+      <a href="https://www.microsoft.com/en-gb/windows/end-of-support?r=1&form=MD1ARU&ocid=cmmmztixa0t&CLRTags=c_udf~%24~Win11-HER-Button~%24%24~c_cmp~%24~EmailHero~%24%24~c_type~%24~CTAButton~%24%24~c_pos~%24~1A_~_CLRTags_~_"><i class="fas fa-bullhorn"></i> اعلامیه پایان پشتیبانی از ویندوز ۱۰</a>
+    </div>
+  </header>
+  <div class="container">
+    <p>
+      اگر هنوز از ویندوز ۱۰، ۸.۱ یا ۷ استفاده می‌کنید، بهتر است هرچه سریع‌تر به ویندوز ۱۱ یا یک توزیع لینوکس مانند پارچ مهاجرت کنید. استفاده از ویندوزهای قدیمی می‌تواند مشکلات امنیتی و عملکردی جدی ایجاد کند. ویندوز ۱۱ نیازمند سخت‌افزار جدیدتری است که قابلیت‌های بیشتری را برای امنیت و کارایی ارائه می‌دهد.
+    </p>
+    <h2>مزایای پارچ لینوکس</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>به‌روزرسانی و امنیت مداوم</h3>
+        <p>پارچ لینوکس به طور مداوم به‌روزرسانی می‌شود و از جدیدترین پچ‌های امنیتی برخوردار است. این امر در مقابل تهدیدات سایبری از شما محافظت می‌کند.</p>
+      </div>
+      <div class="feature">
+        <h3>عملکرد سریع و سبک</h3>
+        <p>پارچ لینوکس حتی بر روی سخت‌افزار قدیمی نیز به خوبی کار می‌کند و سرعت بالا و کارایی مطلوبی را به ارمغان می‌آورد.</p>
+      </div>
+      <div class="feature">
+        <h3>امکان سفارشی‌سازی بالا</h3>
+        <p>پارچ لینوکس به کاربران این امکان را می‌دهد تا محیط کاربری خود را کاملاً مطابق با نیازهایشان تنظیم کنند.</p>
+      </div>
+      <div class="feature">
+        <h3>رایگان و متن‌باز</h3>
+        <p>پارچ لینوکس یک سیستم عامل رایگان و متن‌باز است که می‌توانید به راحتی آن را سفارشی کنید و از امکانات آن استفاده کنید.</p>
+      </div>
+      <div class="feature">
+        <h3>عدم وجود تلمتری</h3>
+        <p>پارچ لینوکس به هیچ عنوان داده‌های شما را جمع‌آوری نمی‌کند و بدون دخالت از سوی شرکت‌های ثالث، حفاظت از حریم خصوصی شما اولویت است.</p>
+      </div>
+      <div class="feature">
+        <h3>بهینه‌سازی برای کاربران ایرانی و سیستم‌های قدیمی</h3>
+        <p>پارچ لینوکس به ویژه برای کاربرانی که در ایران زندگی می‌کنند بهینه‌سازی شده است و از ویژگی‌هایی مانند پشتیبانی از زبان فارسی و بهینه‌سازی عملکرد بر روی سیستم‌های قدیمی برخوردار است.</p>
+      </div>
+    </div>
+    <h2>مشکلات استفاده از ویندوز قدیمی</h2>
+    <p>
+      استفاده طولانی‌مدت از ویندوزهای قدیمی می‌تواند مشکلات جدی ایجاد کند:
+    </p>
+    <ul>
+      <li>عدم دریافت به‌روزرسانی‌های امنیتی که باعث آسیب‌پذیری سیستم در برابر تهدیدات سایبری می‌شود.</li>
+      <li>کاهش عملکرد سیستم به دلیل عدم سازگاری با سخت‌افزار و نرم‌افزارهای جدید.</li>
+      <li>مشکلاتی در اجرای برنامه‌ها و عدم دسترسی به ویژگی‌ها و به‌روزرسانی‌های جدید.</li>
+    </ul>
+    <a href="https://parchlinux.com/download/" class="cta">دانلود پارچ لینوکس</a>
+    <h2>مقایسه پیشنیازها</h2>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>مشخصات</th>
+          <th>ویندوز ۱۱</th>
+          <th>پارچ لینوکس</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>پردازنده</td>
+          <td>۱ گیگاهرتز یا سریع‌تر با ۲ یا بیشتر هسته بر روی پردازنده ۶۴ بیتی یا سیستم بر روی تراشه (SoC)</td>
+          <td>هر پردازنده با ۶۴ بیت</td>
+        </tr>
+        <tr>
+          <td>رم</td>
+          <td>۴ گیگابایت</td>
+          <td>حداقل ۱ گیگابایت</td>
+        </tr>
+        <tr>
+          <td>حافظه</td>
+          <td>۶۴ گیگابایت یا بیشتر</td>
+          <td>حداقل ۱۰ گیگابایت</td>
+        </tr>
+        <tr>
+          <td>مادربورد</td>
+          <td> اجباری بودن Secure Boot</td>
+          <td>پشتیبانی می‌کند، اختیاری</td>
+        </tr>
+        <tr>
+          <td>TPM</td>
+          <td>نسخه ۲.۰</td>
+          <td>پشتیبانی می‌کند، اختیاری</td>
+        </tr>
+        <tr>
+          <td>گرافیک</td>
+          <td>قابل سازگاری با DirectX 12 یا نسخه‌های بالاتر با درایور WDDM 2.0</td>
+          <td>هیچ محدودیتی ندارد</td>
+        </tr>
+        <tr>
+          <td>نمایشگر</td>
+          <td>نمایشگر با وضوح HD (۷۲۰p) یا بالاتر، حداقل ۹ اینچ</td>
+          <td>هیچ محدودیتی ندارد</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html
